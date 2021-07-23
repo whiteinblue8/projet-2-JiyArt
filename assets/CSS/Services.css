@@ -1,0 +1,262 @@
+/* Differentes police */
+
+@font-face {
+    font-family: "peachcomix";
+    src: url("../font/Peach-comix-2.woff") format("woff");
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url("../font/Raleway-VariableFont_wght.woff") format("woff");
+}
+
+@font-face {
+    font-family: "balikawan";
+    src: url("../font/balikawan.woff") format("woff");
+}
+
+.typo {
+    font-family: 'raleway';
+}
+
+
+/* Rezet CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* background color */
+
+body {
+    font-family: "peachcomix";
+    background-color: #4B4B4B;
+    width: 100sw;
+}
+
+
+/* Haut de page */
+
+.container-fluid .text-center {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Redimensionnement des images */
+
+.redim-img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-fluid {
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+
+/* Background color texte présentation */
+
+.color-bg-text {
+    background-color: #9C9191;
+}
+
+
+/* Texte présentation page */
+
+.text-presentation {
+    padding-top: 15px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+/* Titre mes photos - propositions */
+
+.titlesblocs {
+    font-size: 5vw;
+    border-radius: 10px;
+    background-color: #9C9191;
+}
+
+.titles {
+    color: #ffffff!important;
+}
+
+
+/* decoration hyperlien */
+
+.mt-title {
+    margin-top: 5rem !important;
+}
+
+
+/* typo / taille texte */
+
+.typo {
+    font-family: 'raleway';
+}
+
+h1 {
+    font-size: 125px;
+    font-family: "balikawan";
+}
+
+
+/* / METTRE EN FORME LE TEXTE / */
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+
+/* / BARRE DE NAVIGATION / */
+
+.navbar {
+    background-color: #333333 !important;
+}
+
+#form1 {
+    height: 5vh;
+    background-color: #333333 !important;
+}
+
+input::placeholder {
+    color: #c9c9c9 !important;
+}
+
+
+/* TRANSITION POUR LE PLACE HOLDER */
+
+::placeholder {
+    opacity: 1;
+    transition: opacity .3s!important;
+}
+
+:focus::placeholder {
+    opacity: 0;
+}
+
+
+/* / POUR RETIRER LA CROIX DE FERMETURE SUR LA BARRE DE NAVIGATION CHROME /  */
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+
+/* / FIN DE LA BARRE DE NAVIGATION / / BLOCS DE TITRES /  */
+
+.titlesblocs {
+    font-size: 5vw;
+    border-radius: 10px;
+    background-color: #9C9191;
+}
+
+
+/*  BLOC CARTE DE VISITE  */
+
+.visitcard {
+    width: 70vw;
+    height: 80vh;
+}
+
+
+/* BOUTON HAUT DE PAGE  */
+
+.buttonup {
+    width: 20vw;
+    font-size: 2vw;
+    background-color: #9C9191;
+}
+
+
+/* / FOOTER /  */
+
+.footer {
+    background-color: #BFB0B0;
+}
+
+
+/* / COULEUR BLEUE RETIREE /  */
+
+.link-footer {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+
+/* AUGMENTER LA MARGE */
+
+.my-lg-5 {
+    margin-top: 7rem !important;
+}
+
+
+/* / METTRE EN FORME TOUS LES TITRES  / */
+
+.titles {
+    font-family: "peachcomix";
+    color: #ffffff!important;
+}
+
+
+/* Petits ecrans */
+
+
+/* Téléphones */
+
+@media screen and (max-width: 576px) {
+    .img-fluid {
+        height: 125px;
+        width: 100%;
+        display: block;
+    }
+    h1 {
+        font-size: 50px;
+        font-family: "balikawan";
+    }
+    .visitcard {
+        width: 90vw;
+        height: 35vh;
+    }
+    .buttonup {
+        width: 30vw;
+        font-size: 3vw;
+    }
+    .footer {
+        font-size: 15px !important;
+    }
+    @media screen and (max-width: 992px) {
+        .img-fluid {
+            height: 150px;
+            width: 100%;
+            display: block;
+        }
+        .redim-img {
+            width: 100%;
+            height: 100%;
+        }
+        .buttonup {
+            width: 25vw;
+            font-size: 3vw;
+        }
+    }
+}

@@ -1,0 +1,171 @@
+                                            /* Differentes police */
+                                        
+                                        @font-face {
+                                            font-family: "peachcomix";
+                                            src: url("../font/Peach-comix-2.woff") format("woff");
+                                        }
+                                        
+                                        @font-face {
+                                            font-family: "raleway";
+                                            src: url("../font/Raleway-VariableFont_wght.woff") format("woff");
+                                        }
+                                        
+                                        @font-face {
+                                            font-family: "balikawan";
+                                            src: url("../font/balikawan.woff") format("woff");
+                                        }
+                                        
+                                        .typo {
+                                            font-family: 'raleway';
+                                        }
+                                        /* Rezet CSS */
+                                        
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                        }
+                                        /* background color */
+                                        
+                                        body {
+                                            font-family: "peachcomix";
+                                            background-color: #4B4B4B;
+                                            width: 100sw;
+                                        }
+                                        /* navbar */
+                                        
+                                        .navbar {
+                                            background-color: #333333 !important;
+                                        }
+                                        /* Haut de page */
+                                        
+                                        .container-fluid .text-center {
+                                            position: relative;
+                                            text-align: center;
+                                            color: black;
+                                            margin-left: 50px;
+                                            margin-right: 50px;
+                                        }
+                                        
+                                        .centered {
+                                            position: absolute;
+                                            top: 55%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                        }
+                                        /* Redimensionnement des images */
+                                        
+                                        .redim-img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                        
+                                        .img-fluid {
+                                            height: 250px;
+                                            width: 100%;
+                                            display: block;
+                                        }
+                                        /* Background color texte présentation */
+                                        
+                                        .color-bg-text {
+                                            background-color: #9C9191;
+                                        }
+                                        
+                                        .background-box {
+                                            background-color: #9C9191;
+                                        }
+                                        /* Texte présentation page galerie */
+                                        
+                                        .text-gallery {
+                                            padding-top: 15px;
+                                            text-align: center;
+                                            color: #ffffff;
+                                            font-size: 25px;
+                                        }
+                                        /* Titre mes photos - propositions */
+                                        
+                                        .titlesblocs {
+                                            font-size: 5vw;
+                                            border-radius: 10px;
+                                            background-color: #9C9191;
+                                        }
+                                        
+                                        .titles {
+                                            color: #ffffff!important;
+                                        }
+                                        /* Texte en dessous des images gallerie */
+                                        
+                                        .text-places {
+                                            border: 2px solid #000000;
+                                            background-color: #4B4B4B;
+                                            text-align: center;
+                                            color: #ffffff;
+                                            font-size: 25px;
+                                            font-family: "peachcomix";
+                                        }
+                                        /* BOUTON HAUT DE PAGE  */
+                                        
+                                        .buttonup {
+                                            width: 20vw;
+                                            font-size: 2vw;
+                                            background-color: #9C9191;
+                                            font-family: 'raleway';
+                                        }
+                                        /* / FOOTER /  */
+                                        
+                                        .footer {
+                                            background-color: #BFB0B0;
+                                        }
+                                        /* / COULEUR BLEUE RETIREE /  */
+                                        
+                                        .link-footer {
+                                            color: #fff !important;
+                                            font-weight: 600;
+                                        }
+                                        /* decoration hyperlien */
+                                        
+                                        ul {
+                                            list-style-type: none;
+                                        }
+                                        
+                                        .mt-title {
+                                            margin-top: 5rem !important;
+                                        }
+                                        /* typo / taille texte */
+                                        
+                                        .typo {
+                                            font-family: 'raleway';
+                                        }
+                                        
+                                        h1 {
+                                            font-size: 125px;
+                                            font-family: "balikawan";
+                                        }
+                                        
+                                        .cut-text {
+                                            font-size: 30px;
+                                        }
+                                        
+                                        @media screen and (max-width: 576px) {
+                                            h1 {
+                                                font-size: 50px;
+                                                font-family: "balikawan";
+                                            }
+                                            .img-fluid {
+                                                height: 150px;
+                                                width: 100%;
+                                                display: block;
+                                            }
+                                            .buttonup {
+                                                width: 30vw;
+                                                font-size: 3vw;
+                                            }
+                                            .footer {
+                                                font-size: 15px !important;
+                                            }
+                                            @media screen and (max-width: 992px) {
+                                                .buttonup {
+                                                    width: 25vw;
+                                                    font-size: 3vw;
+                                                }
+                                            }
