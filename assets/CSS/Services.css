@@ -64,7 +64,13 @@ body {
 }
 
 .img-fluid {
-    height: 500px;
+    height: 550px;
+    width: 100%;
+    display: block;
+}
+
+.img-services {
+    height: 250px;
     width: 100%;
     display: block;
 }
@@ -114,7 +120,7 @@ body {
 }
 
 h1 {
-    font-size: 125px;
+    font-size: 115px;
     font-family: "balikawan";
 }
 
@@ -224,6 +230,11 @@ input[type="search"]::-webkit-search-cancel-button {
 /* Téléphones */
 
 @media screen and (max-width: 576px) {
+    .img-services {
+        height: 150px;
+        width: 100%;
+        display: block;
+    }
     .img-fluid {
         height: 125px;
         width: 100%;
@@ -239,6 +250,7 @@ input[type="search"]::-webkit-search-cancel-button {
     }
     .buttonup {
         width: 30vw;
+        height: 3rem;
         font-size: 3vw;
     }
     .footer {
@@ -257,6 +269,7 @@ input[type="search"]::-webkit-search-cancel-button {
         .buttonup {
             width: 25vw;
             font-size: 3vw;
+            height: 3rem;
         }
     }
 }
